@@ -1,1 +1,1 @@
-# cssMemeSlider
+LANG=en_EN git commit -m "init: start cssMemeSlider-task $(date '+(%a, %b %d, %Y %r)')"
