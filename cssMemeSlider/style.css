@@ -27,6 +27,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    gap: 20%;
 }
 
 .description_wrapper {
@@ -37,13 +38,14 @@
 .description {
     width: 500%;
     display: flex;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Comfortaa', cursive;
     align-items: center;
 }
 
 .sign {
-    width: 100%;
+    width: 20%;
+    transition: all 0.4s;
 }
 
 .navigation {
@@ -94,25 +96,25 @@ input {
     height: 100%;
 }
 
-#slide1:checked ~ .s1 {
+#slide1:checked ~ div .s1 {
     margin-left: 0;
 }
 
-#slide2:checked ~ .s1 {
+#slide2:checked ~ div .s1 {
     margin-left: -20%;
 }
 
 
-#slide3:checked ~ .s1 {
+#slide3:checked ~ div .s1 {
     margin-left: -40%;
 }
 
 
-#slide4:checked ~ .s1 {
+#slide4:checked ~ div .s1 {
     margin-left: -60%;
 }
 
-#slide5:checked ~ .s1 {
+#slide5:checked ~ div .s1 {
     margin-left: -80%;
 }
 
