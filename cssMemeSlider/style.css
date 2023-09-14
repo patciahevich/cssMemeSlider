@@ -12,15 +12,15 @@
 
     display: flex;
     flex-direction: column;
-    gap: 10vh;
+    gap: 5vh;
     justify-content: center;
     align-items: center;
 }
 
 .slider {
     position: relative;
-    width: 45rem;
-    height: 30rem;
+    width: 60rem;
+    height: 44rem;
     overflow: hidden;
 }
 .controls {
@@ -31,14 +31,14 @@
 }
 
 .description_wrapper {
-    width: 50%; 
+    width: 70%; 
     overflow: hidden;
 }
 
 .description {
     width: 500%;
     display: flex;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Comfortaa', cursive;
     align-items: center;
 }
@@ -119,26 +119,43 @@ input {
 }
 
 
-
+@media screen and (width <= 1317px) {
+    .sign {
+        font-size: 1.7rem;
+    }
+}
 
 @media  screen and (width <= 1035px) {
 
     .slider {
-        width: 26rem;
-        height: 20rem;
+        width: 48rem;
+        height: 39rem;
     }
 
     .controls {
         flex-direction: column-reverse;
         align-items: center;
+        gap: 5vh;
+    }
+
+    .description_wrapper {
+        width: 100%;
+    }
+
+    .sign {
+        font-size: 2rem;
+        text-align: center;
+        align-self: flex-start;
+    }
+}
+
+@media screen and (width <= 806px) {
+    .slider {
+        width: 36rem;
+        height: 29rem;
     }
 
     .sign {
         font-size: 1.5rem;
-        text-align: center;
     }
-}
-
-@media screen and (width <= 868px) {
-
 }
