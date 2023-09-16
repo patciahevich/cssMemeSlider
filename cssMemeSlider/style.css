@@ -7,7 +7,7 @@
     width: 100vw;
     height: 100vh;
 
-    padding: 0 10vw;
+    padding: 5vh 10vw;
     background-color: rgb(198, 200, 204);
 
     display: flex;
@@ -19,8 +19,8 @@
 
 .slider {
     position: relative;
-    width: 60rem;
-    height: 44rem;
+    width: 55rem;
+    height: 42rem;
     overflow: hidden;
 }
 
