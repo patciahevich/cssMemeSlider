@@ -18,9 +18,8 @@
 }
 
 .slider {
-    position: relative;
-    width: 55rem;
-    height: 42rem;
+    width: 80%;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -137,11 +136,18 @@ input {
     }
 }
 
+@media  screen and (width < 1193px) { 
+    .slider {
+        height: 90%;
+    }
+    
+}
+
 @media  screen and (width <= 1035px) {
 
     .slider {
-        width: 48rem;
-        height: 31rem;
+        width: 90%;
+        height: 70%;
     }
 
     .controls {
@@ -161,13 +167,25 @@ input {
     }
 }
 
+@media screen and (width < 900px) {
+    .slider {
+        width: 100%;
+        height: 70%;
+    }
+}
+
 @media screen and (width <= 806px) {
     .slider {
-        width: 36rem;
-        height: 29rem;
+        width: 90%;
+        height: 60%;
     }
-
     .sign {
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (width < 710px) {
+    .slider {
+        height: 50%;
     }
 }
